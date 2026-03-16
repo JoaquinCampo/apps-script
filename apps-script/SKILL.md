@@ -11,7 +11,9 @@ description: >
   "time-driven trigger", "installable trigger", "Apps Script deployment",
   "Apps Script add-on", "HtmlService sidebar", "script properties",
   "journal entry", "trial balance", "bank reconciliation", "aging report",
-  "chart of accounts", "period close", "invoice generator", "accounting spreadsheet".
+  "chart of accounts", "period close", "invoice generator", "accounting spreadsheet",
+  "timesheet", "billable hours", "utilization", "retainer", "project profitability",
+  "rate card", "expense allocation", "consultancy billing", "invoice from timesheets".
 ---
 
 # /apps-script — Google Apps Script Development
@@ -153,3 +155,4 @@ Load these as needed — do not load all at once:
 - `references/clasp-workflow.md` — clasp commands, project setup, deployment workflow
 - `references/common-patterns.md` — Read-process-write, custom menus, dialogs, continuation, retry patterns
 - `references/accountancy-patterns.md` — Journal entries, trial balance, bank reconciliation, AR aging, period locking, invoice numbering, tax helpers, multi-currency
+- `references/consultancy-billing-patterns.md` — Timesheet-to-invoice pipeline, utilization tracking, project profitability, retainer management, rate cards, expense allocation, payment tracking
