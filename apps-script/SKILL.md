@@ -9,7 +9,9 @@ description: >
   "UrlFetchApp", "onOpen", "onEdit", "doGet", "doPost", "custom function",
   "Sheets automation", "Google Workspace automation", "bound script",
   "time-driven trigger", "installable trigger", "Apps Script deployment",
-  "Apps Script add-on", "HtmlService sidebar", "script properties".
+  "Apps Script add-on", "HtmlService sidebar", "script properties",
+  "journal entry", "trial balance", "bank reconciliation", "aging report",
+  "chart of accounts", "period close", "invoice generator", "accounting spreadsheet".
 ---
 
 # /apps-script — Google Apps Script Development
@@ -150,3 +152,4 @@ Load these as needed — do not load all at once:
 - `references/scopes-and-security.md` — OAuth scopes, secret management, input validation, web app security
 - `references/clasp-workflow.md` — clasp commands, project setup, deployment workflow
 - `references/common-patterns.md` — Read-process-write, custom menus, dialogs, continuation, retry patterns
+- `references/accountancy-patterns.md` — Journal entries, trial balance, bank reconciliation, AR aging, period locking, invoice numbering, tax helpers, multi-currency
